@@ -5,14 +5,14 @@
 }
 
 :root {
-    --primary: #7C3AED;
-    --primary-light: #A78BFA;
-    --primary-dark: #5B21B6;
-    --secondary: #EC4899;
+    --primary: #000080;
+    --primary-light: #9e9eff;
+    --primary-dark: white;
+    --secondary: #4848d6;
     --dark: #1E1B4B;
     --darker: #0F172A;
     --light: #F8FAFC;
-    --gray: #64748B;
+    --gray: #64748B;   
 }
 
 body {
@@ -50,7 +50,7 @@ nav {
     color: var(--primary);
 }
 
-.logo img{
+.logo img {
     height: 50px;
 }
 
@@ -131,6 +131,10 @@ nav {
 
     .hamburger {
         display: flex;
+    }
+
+    .hero-visual {
+        position: absolute !important;
     }
 
     .cta-btn {
